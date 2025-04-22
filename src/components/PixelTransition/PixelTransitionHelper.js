@@ -1,19 +1,21 @@
 import React from "react";
 import PixelTransition from "./PixelTransition";
+import Image from "next/image";
 
 const PixelTransitionHelper = ({image, text}) => {
     return (
         <PixelTransition
             firstContent={
-                <img
-                    src={image}
-                    alt=""
-                    style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                    }}
-                />
+                <Image
+                        src={image}
+                        alt=""
+                        fill
+                        priority
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        style={{
+                            objectFit: "cover",
+                        }}
+                    />
             }
             secondContent={
                 <div

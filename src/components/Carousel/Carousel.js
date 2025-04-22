@@ -1,6 +1,7 @@
 "use client";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { useState, useRef, useId, useEffect } from "react";
+import Image from 'next/image';  
 
 const Slide = ({ slide, index, current, handleSlideClick }) => {
     const slideRef = useRef(null);
@@ -75,7 +76,7 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
                                 ? "translate3d(calc(var(--x) / 30), calc(var(--y) / 30), 0)"
                                 : "none",
                     }}>
-                    <img
+                    <Image
                         className="absolute inset-0 w-[100%] h-[100%] object-cover opacity-100 transition-opacity duration-600 ease-in-out"
                         style={{
                             opacity: current === index ? 1 : 0.5,
@@ -83,8 +84,9 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
                         alt={title}
                         src={src}
                         onLoad={imageLoaded}
-                        loading="eager"
-                        decoding="sync"
+                        fill
+                        priority
+                        sizes="(max-width: 768px) 300px, 620px"
                     />
                     {current === index && (
                         <div className="absolute inset-0 bg-black/70 transition-all duration-1000" />

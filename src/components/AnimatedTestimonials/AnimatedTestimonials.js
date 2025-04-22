@@ -2,7 +2,7 @@
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const rotationValues = [
     -8, 5, -3, 7, -5, 4, -6, 8, -4, 6, -7, 3, -5, 4, -8, 5, -3, 7, -6, 4,
@@ -14,10 +14,6 @@ export default function AnimatedTestimonials({
 }) {
     const [active, setActive] = useState(0);
 
-    const handleNext = () => {
-        setActive((prev) => (prev + 1) % testimonials.length);
-    };
-
     const handlePrev = () => {
         setActive(
             (prev) => (prev - 1 + testimonials.length) % testimonials.length
@@ -28,12 +24,16 @@ export default function AnimatedTestimonials({
         return index === active;
     };
 
+    const handleNext = useCallback(() => {
+        setActive((prev) => (prev + 1) % testimonials.length);
+    }, [testimonials.length]);
+
     useEffect(() => {
         if (autoplay) {
             const interval = setInterval(handleNext, 5000);
             return () => clearInterval(interval);
         }
-    }, [autoplay]);
+    }, [autoplay, handleNext]);
 
     const randomRotateY = (index) => {
         return rotationValues[index % rotationValues.length];
