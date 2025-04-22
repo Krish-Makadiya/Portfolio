@@ -42,12 +42,12 @@ export default function Home() {
 
                     <div>
                         <ScrollRevealHelper
-                            children={
+                            text={
                                 "Hey there! I’m a passionate developer who loves turning ideas into reality through code. Whether it's building full-stack web applications or solving complex problems with clean, efficient logic, I thrive on challenges that push me to learn and grow every day. Creativity and curiosity fuel my journey in tech, and I’m always exploring new tools and frameworks to level up my skills."
                             }
                         />
                         <ScrollRevealHelper
-                            children={
+                            text={
                                 "When I'm not coding, you'll probably find me brainstorming project ideas, collaborating with like-minded people, or diving into the latest tech trends. I believe in building things that not only work great but also make a real impact. Let’s connect and create something awesome together!"
                             }
                         />
