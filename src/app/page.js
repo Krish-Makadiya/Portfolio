@@ -41,11 +41,11 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <ScrollRevealHelper>
-                            Hey there! I'm a passionate developer who loves turning ideas into reality through code. Whether it's building full-stack web applications or solving complex problems with clean, efficient logic, I thrive on challenges that push me to learn and grow every day. Creativity and curiosity fuel my journey in tech, and I'm always exploring new tools and frameworks to level up my skills.
+                    <ScrollRevealHelper>
+                            Hey there! I&apos;m a passionate developer who loves turning ideas into reality through code. Whether it&apos;s building full-stack web applications or solving complex problems with clean, efficient logic, I thrive on challenges that push me to learn and grow every day. Creativity and curiosity fuel my journey in tech, and I&apos;m always exploring new tools and frameworks to level up my skills.
                         </ScrollRevealHelper>
                         <ScrollRevealHelper>
-                            When I'm not coding, you'll probably find me brainstorming project ideas, collaborating with like-minded people, or diving into the latest tech trends. I believe in building things that not only work great but also make a real impact. Let's connect and create something awesome together!
+                            When I&apos;m not coding, you&apos;ll probably find me brainstorming project ideas, collaborating with like-minded people, or diving into the latest tech trends. I believe in building things that not only work great but also make a real impact. Let&apos;s connect and create something awesome together!
                         </ScrollRevealHelper>
                     </div>
                 </div>
