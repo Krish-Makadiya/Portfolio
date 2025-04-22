@@ -1,14 +1,14 @@
 import React from "react";
 import ScrollReveal from "./ScrollReveal";
 
-const ScrollRevealHelper = ({text}) => {
+const ScrollRevealHelper = ({children}) => {
     return (
         <ScrollReveal
             baseOpacity={0}
             enableBlur={true}
             baseRotation={5}
             blurStrength={10}>
-            {text}
+            {children}
         </ScrollReveal>
     );
 };
