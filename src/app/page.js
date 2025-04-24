@@ -27,12 +27,12 @@ export default function Home() {
                     <div className="w-full flex flex-col justify-center items-center h-screen">
                         <BlurTextHelper text="Krish Makadiya" />
                         <RotatingTextHelper />
-                        <div className="flex flex-row justify-center items-center gap-4 mt-20">
+                        <div className="flex flex-row justify-center items-center gap-4 mt-10">
                             <MagnetHelper />
                         </div>
                     </div>
                 </div>
-                <div className="bg-black h-screen md:w-4/5 w-[90%] mx-auto flex flex-col md:gap-6 gap-3 justify-center relative">
+                <div className="bg-black md:h-screen h-[60vh] md:w-4/5 w-[90%] mx-auto flex flex-col md:gap-6 gap-3 justify-center relative">
                     <div className="absolute top-1/2 left-1/2 w-screen h-[80%] z-0 -translate-x-1/2 -translate-y-1/2">
                         <MetaBallsHelper />
                     </div>

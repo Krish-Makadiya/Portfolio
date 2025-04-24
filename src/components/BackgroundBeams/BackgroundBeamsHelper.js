@@ -16,7 +16,7 @@ export default function BackgroundBeamsHelper() {
                         Code, coffee, and collaboration – always up for it.
                     </p>
                 </div>
-                <div className="md:w-[500px] w-[90%] mx-auto flex flex-col justify-center items-center gap-5">
+                <div className="md:w-[500px] w-[100%] mx-auto flex flex-col justify-center items-center gap-5">
                     <input
                         type="text"
                         placeholder="Name"

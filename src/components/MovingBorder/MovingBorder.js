@@ -43,7 +43,7 @@ export function MovingBorder({
       </div>
       <div
         className={cn(
-          "relative flex h-full w-full items-center justify-center border border-slate-800 bg-black text-sm text-white antialiased backdrop-blur-xl",
+          "relative flex h-full w-full items-center justify-center border border-neutral-500 bg-black text-sm text-white antialiased backdrop-blur-xl",
           className
         )}
         style={{

@@ -6,33 +6,33 @@ export default function CarouselHelper() {
         {
             title: "LastPass",
             button: "Visit",
-            src: "/MiniProjects/LastPass.PNG",
+            src: "/MiniProjects/LastPass.png",
         },
         {
             title: "LinkHive",
             button: "Visit",
-            src: "/MiniProjects/Link-Hive.PNG",
+            src: "/MiniProjects/Link-Hive.png",
         },
 
         {
             title: "DevDetective",
             button: "Visit",
-            src: "/MiniProjects/DevDetective.PNG",
+            src: "/MiniProjects/DevDetective.png",
         },
         {
             title: "Password Generator",
             button: "Visit",
-            src: "/MiniProjects/PassGenerator.PNG",
+            src: "/MiniProjects/PassGenerator.png",
         },
         {
             title: "TikTakToe",
             button: "Visit",
-            src: "/MiniProjects/TicTacToe.PNG",
+            src: "/MiniProjects/TicTacToe.png",
         },
         {
             title: "Weather App",
             button: "Visit",
-            src: "/MiniProjects/WeatherApp.PNG",
+            src: "/MiniProjects/WeatherApp.png",
         },
     ];
     return (

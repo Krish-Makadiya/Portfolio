@@ -1,7 +1,7 @@
 "use client";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { useState, useRef, useId, useEffect } from "react";
-import Image from 'next/image';  
+import Image from "next/image";
 
 const Slide = ({ slide, index, current, handleSlideClick }) => {
     const slideRef = useRef(null);
@@ -56,7 +56,7 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
         <div className="[perspective:1200px] [transform-style:preserve-3d]">
             <li
                 ref={slideRef}
-                className="flex flex-1 flex-col items-center justify-center relative text-center text-white opacity-100 transition-all duration-300 ease-in-out md:w-[620px] w-[300px] md:h-[540px] h-[400px] md:mx-[4vmin] mx-[2vmin] my-2 z-10 "
+                className="flex flex-1 flex-col items-center justify-center relative text-center text-white opacity-100 transition-all duration-300 ease-in-out md:w-[620px] w-[300px] md:h-[540px] h-[400px] md:mx-[4vmin] mx-[2vmin] my-2 z-10"
                 onClick={() => handleSlideClick(index)}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={handleMouseLeave}
@@ -149,7 +149,7 @@ export default function Carousel({ slides }) {
 
     return (
         <div
-            className="relative w-[85vmin] h-[85vmin] mx-auto"
+            className="relative w-[65vmin] h-[85vmin] justify-center items-center mx-auto"
             aria-labelledby={`carousel-heading-${id}`}>
             <ul
                 className="absolute flex  transition-transform duration-1000 ease-in-out"

@@ -11,7 +11,7 @@ const PixelTransitionHelper = ({image, text}) => {
                         alt=""
                         fill
                         priority
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 800px) 100vw, 50vw"
                         style={{
                             objectFit: "cover",
                         }}
@@ -27,7 +27,7 @@ const PixelTransitionHelper = ({image, text}) => {
                         backgroundColor: "#affc41",
                     }}>
                     <p
-                        className="md:font-[900] md:text-[18px] text-[10px] w-full text-center text-black">
+                        className="md:font-[900] md:text-[16px] text-[10px] w-full text-center text-black">
                         {text}
                     </p>
                 </div>

@@ -6,7 +6,7 @@ export default function MovingBorderHelper({text}) {
   return (
     <div>
       <MovingBorder
-        borderRadius="1.75rem"
+        borderRadius="2rem"
         className="bg-black text-white border-neutral-800">
         {text}
       </MovingBorder>

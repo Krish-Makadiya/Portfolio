@@ -34,15 +34,6 @@ export const HoverEffect = ({ items, className }) => {
                         )}
                     </AnimatePresence>
                     <PixelTransitionHelper image={item.image} text={item.title}/>
-                    {/* <div className="flex w-full mx-auto h-full flex-col justify-center items-center gap-4 relative z-10">
-                        <Image
-                            src={item.image}
-                            alt={item.title}
-                            width={500}
-                            height={500}
-                            className="w-full h-auto max-w-[150px] object-contain rounded-xl"
-                        />
-                    </div> */}
                 </div>
             ))}
         </div>
