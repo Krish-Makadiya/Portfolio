@@ -50,7 +50,7 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
         event.currentTarget.style.opacity = "1";
     };
 
-    const { src, button, title } = slide;
+    const { src, button, title, link } = slide;
 
     return (
         <div className="[perspective:1200px] [transform-style:preserve-3d]">
@@ -103,9 +103,13 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
                         {title}
                     </h2>
                     <div className="flex justify-center">
-                        <button className="mt-6  px-6 py-4w-fit mx-auto text-black bg-[#affc41] h-12 border border-transparent  flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+                        <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-6  px-6 py-4w-fit mx-auto text-black bg-[#affc41] h-12 border border-transparent  flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
                             {button}
-                        </button>
+                        </a>
                     </div>
                 </article>
             </li>

@@ -77,14 +77,20 @@ export default function AnimatedTestimonials({
                                         ease: "easeInOut",
                                     }}
                                     className="absolute inset-0 origin-bottom">
-                                    <Image
-                                        src={testimonial.src}
-                                        alt={testimonial.name}
-                                        width={500}
-                                        height={500}
-                                        draggable={false}
-                                        className="h-full w-full rounded-3xl object-cover object-center"
-                                    />
+                                    <a
+                                        href={testimonial.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="block w-full h-full">
+                                        <Image
+                                            src={testimonial.src}
+                                            alt={testimonial.name}
+                                            width={500}
+                                            height={500}
+                                            draggable={false}
+                                            className="h-full w-full rounded-3xl object-cover object-center hover:opacity-90 transition-opacity duration-300"
+                                        />
+                                    </a>
                                 </motion.div>
                             ))}
                         </AnimatePresence>

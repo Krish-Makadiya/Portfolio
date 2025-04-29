@@ -6,8 +6,8 @@ const Dock = () => {
     return (
         <ul className="wrapper">
             <a
-                className="icon facebook"
-                href="https://www.facebook.com/adam.mohammed.5"
+                className="icon linkedin"
+                href="https://www.linkedin.com/in/krish-makadiya-a9a1332a0/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="tooltip">Linkedin</span>
@@ -21,7 +21,11 @@ const Dock = () => {
                     <circle cx="30.9" cy="32.7" r="9.3" fill="#fff"></circle>
                 </svg>
             </a>
-            <a className="icon github">
+            <a
+                className="icon github"
+                href="https://github.com/Krish-Makadiya"
+                target="_blank"
+                rel="noopener noreferrer">
                 <span className="tooltip">Github</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

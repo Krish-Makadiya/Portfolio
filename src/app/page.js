@@ -19,7 +19,7 @@ import BackgroundBeamsHelper from "@/components/BackgroundBeams/BackgroundBeamsH
 export default function Home() {
     return (
         <ClickSparkHelper>
-            <div className="bg-black w-full h-full">
+            <div className="bg-black w-full h-full select-none">
                 <div className="h-screen w-full overflow-hidden pt-6">
                     <GooeyNavHelper />
                     <ParticlesHelper />
@@ -41,11 +41,24 @@ export default function Home() {
                     </div>
 
                     <div>
-                    <ScrollRevealHelper>
-                            Hey there! I&apos;m a passionate developer who loves turning ideas into reality through code. Whether it&apos;s building full-stack web applications or solving complex problems with clean, efficient logic, I thrive on challenges that push me to learn and grow every day. Creativity and curiosity fuel my journey in tech, and I&apos;m always exploring new tools and frameworks to level up my skills.
+                        <ScrollRevealHelper>
+                            Hi, I&apos;m Krish Makadiya , a Computer Science
+                            student specializing in AIML, set to graduate in
+                            2027. I&apos;m a passionate developer who loves
+                            turning ideas into reality through code. Whether
+                            it&apos;s building scalable full-stack web
+                            applications or solving complex problems with clean
+                            and efficient logic, I thrive on challenges that
+                            push me to grow and innovate.
                         </ScrollRevealHelper>
                         <ScrollRevealHelper>
-                            When I&apos;m not coding, you&apos;ll probably find me brainstorming project ideas, collaborating with like-minded people, or diving into the latest tech trends. I believe in building things that not only work great but also make a real impact. Let&apos;s connect and create something awesome together!
+                            My journey in tech is driven by creativity,
+                            curiosity, and a constant desire to learn. I enjoy
+                            exploring new tools, frameworks, and trends to stay
+                            ahead and elevate my skillset. Beyond coding,
+                            I&apos;m always brainstorming new project ideas,
+                            collaborating with like-minded people, and working
+                            on solutions that create real impact.
                         </ScrollRevealHelper>
                     </div>
                 </div>

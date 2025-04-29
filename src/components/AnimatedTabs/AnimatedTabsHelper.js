@@ -67,18 +67,30 @@ export default function AnimatedTabsHelper() {
 }
 
 const DummyContent = ({ image }) => {
+    const projectLinks = {
+        "DinoAI.PNG": "https://github.com/Krish-Makadiya/DinoAI",
+        "FundVault.PNG": "https://github.com/Krish-Makadiya/FundVault",
+        "Portfolio.PNG": "https://krish-makadiya.vercel.app/",
+        "DevCharcha.PNG": "https://github.com/Krish-Makadiya/Dev-Charcha",
+        "NanoLink.PNG": "https://nanolink-official.vercel.app/",
+    };
+
+    const getProjectLink = (imagePath) => {
+        const imageName = imagePath.split("/").pop();
+        return projectLinks[imageName] || "#";
+    };
+
     return (
-        <a 
-            href="" 
-            target="_blank" 
-            rel="noopener noreferrer"
-        >
+        <a
+            href={getProjectLink(image)}
+            target="_blank"
+            rel="noopener noreferrer">
             <Image
                 src={image}
-                alt="dummy image"
+                alt="project preview"
                 width="1000"
                 height="1000"
-                className="object-cover object-middle-top  md:h-[90%] absolute md:-bottom-10 -bottom-1 inset-x-0 w-[90%] rounded-xl mx-auto"
+                className="object-cover object-middle-top md:h-[90%] absolute md:-bottom-10 -bottom-1 inset-x-0 w-[90%] rounded-xl mx-auto"
             />
         </a>
     );
