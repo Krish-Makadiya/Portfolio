@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="w-full flex flex-col justify-center items-center h-screen">
                         <BlurTextHelper text="Krish Makadiya" />
                         <RotatingTextHelper />
-                        <div className="flex flex-row justify-center items-center gap-4 mt-10">
+                        <div className="flex flex-row justify-center items-center gap-4 mt-15">
                             <MagnetHelper />
                         </div>
                     </div>
