@@ -56,7 +56,7 @@ export default function BackgroundBeamsHelper() {
             <div className="max-w-2xl mx-auto p-4 flex flex-col gap-10">
                 <div>
                     <h1 className="relative z-10 md:text-[60px] text-[40px] text-white text-center font-sans font-bold">
-                        Let's Connect!
+                        Let&apos;s Connect!
                     </h1>
                     <p className="text-neutral-500 md:text-[24px] text-[16px] text-center relative z-10">
                         Code, coffee, and collaboration – always up for it.
