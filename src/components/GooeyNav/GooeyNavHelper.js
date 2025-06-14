@@ -13,6 +13,11 @@ const handleClick = (e, href) => {
 
 const items = [
     {
+        label: "Experience",
+        href: "#Experience",
+        onClick: (e) => handleClick(e, "#Experience"),
+    },
+    {
         label: "Skills",
         href: "#Skills",
         onClick: (e) => handleClick(e, "#Skills"),

@@ -4,12 +4,20 @@ import RotatingText from "./RotatingText";
 const RotatingTextHelper = () => {
     return (
         <div className="flex items-center gap-3">
-            <p className="text-white lg:text-[36px] md:text-[28px] text-[22px]">I am</p>
+            <p className="text-white lg:text-[36px] md:text-[28px] text-[22px]">I am a</p>
             <RotatingText
                 texts={[
                     "Frontend Developer",
                     "Backend Developer",
                     "Full Stack Developer",
+                    "Vibe Coder",
+                    "Creative Coder",
+                    "Problem Solver",
+                    "DevOps Explorer",
+                    "React.js Developer",
+                    "Next.js Developer",
+                    "JavaScript Developer",
+                    "UI/UX Enthusiast",
                 ]}
                 mainClassName="px-4 px-2 bg-gradient-to-br from-[#affc41] to-[#98e636] text-black overflow-hidden py-0.5 py-2 justify-center rounded-lg md:text-[30px] text-[24px] font-bold"
                 staggerFrom={"last"}
