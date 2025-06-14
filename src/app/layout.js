@@ -1,5 +1,12 @@
 import "./globals.css";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from "react-hot-toast";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+    subsets: ["latin"],
+    weight: ["400", "500", "600", "700"],
+    display: "swap",
+});
 
 export const metadata = {
     title: "Create Next App",
@@ -8,9 +15,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
-            <body
-                className={`overflow-x-hidden`} cz-shortcut-listen="true">
+        <html lang="en" className={poppins.className}>
+            <body className={`overflow-x-hidden`} cz-shortcut-listen="true">
                 {children}
                 <Toaster />
             </body>

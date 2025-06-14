@@ -35,7 +35,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="bg-black md:h-screen h-[60vh] md:w-4/5 w-[90%] mx-auto flex flex-col md:gap-6 gap-3 justify-center relative">
+                <div className="bg-black md:h-screen h-[80vh] md:w-4/5 w-[90%] mx-auto flex flex-col md:gap-6 gap-3 justify-center relative">
                     <div className="absolute top-1/2 left-1/2 w-screen h-[80%] z-0 -translate-x-1/2 -translate-y-1/2">
                         <MetaBallsHelper />
                     </div>
