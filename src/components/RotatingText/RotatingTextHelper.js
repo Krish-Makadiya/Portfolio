@@ -19,7 +19,7 @@ const RotatingTextHelper = () => {
                     "JavaScript Developer",
                     "UI/UX Enthusiast",
                 ]}
-                mainClassName="px-4 px-2 bg-gradient-to-br from-[#affc41] to-[#98e636] text-black overflow-hidden py-0.5 py-2 justify-center rounded-lg md:text-[30px] text-[24px] font-bold"
+                mainClassName="px-4 px-2 bg-gradient-to-br from-[#affc41] to-[#98e636] text-black overflow-hidden py-0.5 py-2 justify-center rounded-lg md:text-[30px] text-[24px] font-semibold"
                 staggerFrom={"last"}
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
