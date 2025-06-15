@@ -172,7 +172,7 @@ export default function Carousel({ slides }) {
                     />
                 ))}
             </ul>
-            <div className=" absolute flex justify-center w-full lg:bottom-[100px] -bottom-[120px]">
+            <div className=" absolute flex justify-center w-full md:bottom-[100px] sm:bo -bottom-[50px] z-10">
                 <CarouselControl
                     type="previous"
                     title="Go to previous slide"

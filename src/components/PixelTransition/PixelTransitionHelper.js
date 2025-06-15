@@ -27,7 +27,7 @@ const PixelTransitionHelper = ({image, text}) => {
                         backgroundColor: "#affc41",
                     }}>
                     <p
-                        className="md:font-[900] md:text-[16px] text-[10px] w-full text-center text-black">
+                        className="md:font-[500] px-1 md:text-[16px] text-[10px] w-full text-center text-black">
                         {text}
                     </p>
                 </div>

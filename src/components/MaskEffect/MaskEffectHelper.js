@@ -10,7 +10,7 @@ export function MaskEffectHelper() {
                         <p className="py-5 md:text-4xl text-2xl block">
                             Backend Developer Intern — ZeldaTech{" "}
                             <span className="md:text-[24px] text-[16px] text-neutral-400">
-                                (March 2025 – Present)
+                                (April 2025 – Present)
                             </span>
                         </p>
                         <hr className="pb-5 w-28 text-[#affc41] md:border-t-[3px]" />
@@ -36,7 +36,7 @@ export function MaskEffectHelper() {
                 <p className="py-5 md:text-4xl text-2xl block">
                     Backend Developer Intern — ZeldaTech{" "}
                     <span className="md:text-[24px] text-[16px] text-neutral-400">
-                        (March 2025 – Present)
+                        (April 2025 – Present)
                     </span>
                 </p>
                 <hr className="pb-5 w-28 text-[#affc41] md:border-t-[3px]" />
