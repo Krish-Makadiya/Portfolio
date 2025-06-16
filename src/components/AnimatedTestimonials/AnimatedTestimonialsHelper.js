@@ -4,6 +4,13 @@ import AnimatedTestimonials from "./AnimatedTestimonials";
 export default function AnimatedTestimonialsHelper() {
     const testimonials = [
         {
+            quote: "The Future of Automation: What Will Vanish, What Will Survive, and How to Protect Your Career for the Future.",
+            name: "The Future and Present of Automation",
+            designation: "June 2025",
+            src: "/Blogs/Automation.jpeg",
+            link: "https://medium.com/@krishmakadiya2005/the-future-and-present-of-automation-2609b8106f6e",
+        },
+        {
             quote: "Firebase: Google’s speed vs. Appwrite’s open-source control—your backend choice depends!",
             name: "Firebase vs. Appwrite: Which Backend Should You Choose?",
             designation: "April 2025",
